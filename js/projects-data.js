@@ -98,7 +98,7 @@ const projectsData = [{
         "cover": "assets/projects/proj3/thumb.png",
         "year": "2024",
         "location": "Bela Vista - São Paulo, Brazil ",
-        "area": "2,406 m²",
+        "area": "2.406 m²",
         "software": "AutoCAD, Revit, Lumion",
         "images": [
             "assets/projects/proj3/proj3_1.png",
@@ -385,7 +385,7 @@ const projectsData = [{
         "cover": "assets/projects/proj10/thumb.jpg",
         "year": "2024",
         "location": "São Paulo, Brazil",
-        "area": "2024",
+        "area": "350 m²",
         "software": "AutoCAD, Revit, Lumion",
         "images": [
             "assets/projects/proj10/proj10_1.jpg",
@@ -538,7 +538,7 @@ const projectsData = [{
         "cover": "assets/projects/proj14/thumb.png",
         "year": "2026",
         "location": "Ireland",
-        "area": "0 m²",
+        "area": "13.50 m²",
         "software": "AutoCAD · Revit · Autodesk Rendering · AI-Assisted Rendering",
         "images": [
             "assets/projects/proj14/proj14_1.png",
@@ -573,13 +573,15 @@ const projectsData = [{
         "cover": "assets/projects/proj15/thumb.png",
         "year": "2026",
         "location": "Ireland",
-        "area": "0 m²",
+        "area": "120 m²",
         "software": "AutoCAD · Revit · Autodesk Rendering · AI-Assisted Rendering",
         "images": [
+            "assets/projects/proj15/proj15_5.png",
             "assets/projects/proj15/proj15_1.png",
             "assets/projects/proj15/proj15_2.png",
             "assets/projects/proj15/proj15_3.png",
             "assets/projects/proj15/proj15_4.png"
+
         ],
         "translations": {
             "pt": {
@@ -609,7 +611,7 @@ const projectsData = [{
         "cover": "assets/projects/proj16/thumb.png",
         "year": "2026",
         "location": "Ireland",
-        "area": "0 m²",
+        "area": "67.77 m²",
         "software": "AutoCAD · Revit · Autodesk Rendering · AI-Assisted Rendering",
         "images": [
             "assets/projects/proj16/proj16_1.png",
@@ -645,7 +647,7 @@ const projectsData = [{
         "cover": "assets/projects/proj17/thumb.png",
         "year": "2026",
         "location": "Ireland",
-        "area": "0 m²",
+        "area": "27.68 m²",
         "software": "AutoCAD · Revit · Autodesk Rendering · AI-Assisted Rendering",
         "images": [
             "assets/projects/proj17/proj17_1.png",
@@ -680,7 +682,7 @@ const projectsData = [{
         "cover": "assets/projects/proj18/thumb.png",
         "year": "2026",
         "location": "Ireland",
-        "area": "0 m²",
+        "area": "88.60 m²",
         "software": "AutoCAD · Revit · Autodesk Rendering · AI-Assisted Rendering",
         "images": [
             "assets/projects/proj18/proj18_1.png",
@@ -716,7 +718,7 @@ const projectsData = [{
         "cover": "assets/projects/proj19/thumb.png",
         "year": "2026",
         "location": "Ireland",
-        "area": "0 m²",
+        "area": "13.61 m²",
         "software": "AutoCAD · Revit · Autodesk Rendering · AI-Assisted Rendering",
         "images": [
             "assets/projects/proj19/proj19_1.png",
@@ -752,7 +754,7 @@ const projectsData = [{
         "cover": "assets/projects/proj20/thumb.png",
         "year": "2026",
         "location": "Ireland",
-        "area": "0 m²",
+        "area": "13.46 m²",
         "software": "AutoCAD · Revit · Autodesk Rendering · AI-Assisted Rendering",
         "images": [
             "assets/projects/proj20/proj20_1.png",
@@ -787,7 +789,7 @@ const projectsData = [{
         "cover": "assets/projects/proj21/thumb.png",
         "year": "2026",
         "location": "Ireland",
-        "area": "0 m²",
+        "area": "73.03 m²",
         "software": "AutoCAD · Revit · Autodesk Rendering · AI-Assisted Rendering",
         "images": [
             "assets/projects/proj21/proj21_1.png",
@@ -825,7 +827,7 @@ const projectsData = [{
         "cover": "assets/projects/proj22/thumb.png",
         "year": "2026",
         "location": "Ireland",
-        "area": "0 m²",
+        "area": "257.63 m²",
         "software": "AutoCAD · Revit · Autodesk Rendering · AI-Assisted Rendering",
         "images": [
             "assets/projects/proj22/proj22_1.png",
@@ -864,7 +866,7 @@ const projectsData = [{
         "cover": "assets/projects/proj23/thumb.png",
         "year": "2026",
         "location": "Ireland",
-        "area": "0 m²",
+        "area": "46.51 m²",
         "software": "AutoCAD · Revit · Autodesk Rendering · AI-Assisted Rendering",
         "images": [
             "assets/projects/proj23/proj23_1.png",
@@ -902,9 +904,10 @@ const projectsData = [{
         "cover": "assets/projects/proj24/thumb.png",
         "year": "2026",
         "location": "Ireland",
-        "area": "0 m²",
+        "area": "58.30 m²",
         "software": "AutoCAD · Revit · Autodesk Rendering · AI-Assisted Rendering",
         "images": [
+            "assets/projects/proj24/proj24_7.png",
             "assets/projects/proj24/proj24_1.png",
             "assets/projects/proj24/proj24_2.png",
             "assets/projects/proj24/proj24_3.png",
@@ -940,7 +943,7 @@ const projectsData = [{
         "cover": "assets/projects/proj26/thumb.png",
         "year": "2026",
         "location": "Ireland",
-        "area": "0 m²",
+        "area": "16.47 m²",
         "software": "AutoCAD · Revit · Autodesk Rendering · AI-Assisted Rendering",
         "images": [
             "assets/projects/proj26/proj26_1.png",
@@ -975,7 +978,7 @@ const projectsData = [{
         "cover": "assets/projects/proj27/thumb.png",
         "year": "2026",
         "location": "Ireland",
-        "area": "0 m²",
+        "area": "106.96 m²",
         "software": "AutoCAD · Revit · Autodesk Rendering · AI-Assisted Rendering",
         "images": [
             "assets/projects/proj27/proj27_1.png",
@@ -1011,7 +1014,7 @@ const projectsData = [{
         "cover": "assets/projects/proj28/thumb.png",
         "year": "2026",
         "location": "Ireland",
-        "area": "0 m²",
+        "area": "14.47 m²",
         "software": "AutoCAD · Revit · Autodesk Rendering · AI-Assisted Rendering",
         "images": [
             "assets/projects/proj28/proj28_1.png",
@@ -1045,7 +1048,7 @@ const projectsData = [{
         "cover": "assets/projects/proj29/thumb.png",
         "year": "2026",
         "location": "Ireland",
-        "area": "0 m²",
+        "area": "68.56 m²",
         "software": "AutoCAD · Revit · Autodesk Rendering · AI-Assisted Rendering",
         "images": [
             "assets/projects/proj29/proj29_1.png",
@@ -1081,7 +1084,7 @@ const projectsData = [{
         "cover": "assets/projects/proj30/thumb.png",
         "year": "2026",
         "location": "Ireland",
-        "area": "0 m²",
+        "area": "23.35 m²",
         "software": "AutoCAD · Revit · Autodesk Rendering · AI-Assisted Rendering",
         "images": [
             "assets/projects/proj30/proj30_1.png",
@@ -1117,7 +1120,7 @@ const projectsData = [{
         "cover": "assets/projects/proj31/thumb.png",
         "year": "2026",
         "location": "Ireland",
-        "area": "0 m²",
+        "area": "47.86 m²",
         "software": "AutoCAD · Revit · Autodesk Rendering · AI-Assisted Rendering",
         "images": [
             "assets/projects/proj31/proj31_1.png",
@@ -1155,7 +1158,7 @@ const projectsData = [{
         "cover": "assets/projects/proj32/thumb.png",
         "year": "2026",
         "location": "Ireland",
-        "area": "0 m²",
+        "area": "14.40 m²",
         "software": "AutoCAD · Revit · Autodesk Rendering · AI-Assisted Rendering",
         "images": [
             "assets/projects/proj32/proj32_1.png",
@@ -1191,7 +1194,7 @@ const projectsData = [{
         "cover": "assets/projects/proj33/thumb.png",
         "year": "2026",
         "location": "Ireland",
-        "area": "0 m²",
+        "area": "86 m²",
         "software": "AutoCAD · Revit · Autodesk Rendering · AI-Assisted Rendering",
         "images": [
             "assets/projects/proj33/proj33_1.png",
@@ -1230,7 +1233,7 @@ const projectsData = [{
         "cover": "assets/projects/proj34/thumb.png",
         "year": "2026",
         "location": "Ireland",
-        "area": "0 m²",
+        "area": "12.98 m²",
         "software": "AutoCAD · Revit · Autodesk Rendering · AI-Assisted Rendering",
         "images": [
             "assets/projects/proj34/proj34_1.png",
@@ -1268,16 +1271,18 @@ const projectsData = [{
         "cover": "assets/projects/proj35/thumb.png",
         "year": "2026",
         "location": "Ireland",
-        "area": "0 m²",
+        "area": "62 m²",
         "software": "AutoCAD · Revit · Autodesk Rendering · AI-Assisted Rendering",
         "images": [
+            "assets/projects/proj35/proj35_7.png",
+            "assets/projects/proj35/proj35_8.png",
             "assets/projects/proj35/proj35_1.png",
+            "assets/projects/proj35/proj35_6.png",
             "assets/projects/proj35/proj35_2.png",
             "assets/projects/proj35/proj35_3.png",
             "assets/projects/proj35/proj35_4.png",
-            "assets/projects/proj35/proj35_5.png",
-            "assets/projects/proj35/proj35_6.png",
-            "assets/projects/proj35/proj35_7.png"
+            "assets/projects/proj35/proj35_5.png"
+
         ],
         "translations": {
             "pt": {
@@ -1307,7 +1312,7 @@ const projectsData = [{
         "cover": "assets/projects/proj36/thumb.png",
         "year": "2026",
         "location": "Ireland",
-        "area": "0 m²",
+        "area": "11.95 m²",
         "software": "AutoCAD · Revit · Autodesk Rendering · AI-Assisted Rendering",
         "images": [
             "assets/projects/proj36/proj36_1.png",
@@ -1346,7 +1351,7 @@ const projectsData = [{
         "cover": "assets/projects/proj37/thumb.png",
         "year": "2026",
         "location": "Dublin, Ireland",
-        "area": "0 m²",
+        "area": "14.62 m²",
         "software": "AutoCAD · Revit · Autodesk Rendering · AI-Assisted Rendering",
         "images": [
             "assets/projects/proj37/proj37_1.png",
@@ -1380,9 +1385,11 @@ const projectsData = [{
         "cover": "assets/projects/proj38/thumb.png",
         "year": "2026",
         "location": "Clonmel, Ireland",
-        "area": "0 m²",
+        "area": "170 m²",
         "software": "AutoCAD · Revit · Autodesk Rendering · AI-Assisted Rendering",
         "images": [
+            "assets/projects/proj38/proj38_9.png",
+            "assets/projects/proj38/proj38_10.png",
             "assets/projects/proj38/proj38_1.png",
             "assets/projects/proj38/proj38_2.png",
             "assets/projects/proj38/proj38_3.png",
