@@ -1761,3 +1761,14 @@ body.dark-mode .next-project-link:hover {
 .menu-toggle.active i {
     transform: rotate(90deg);
 }
+
+
+/* Manter a barra superior fixa na página dos projetos */
+
+body:not(.home-page) header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
