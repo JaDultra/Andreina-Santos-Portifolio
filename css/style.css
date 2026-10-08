@@ -1772,3 +1772,22 @@ body:not(.home-page) header {
     width: 100%;
     z-index: 1000;
 }
+
+
+/* Evita redimensionamento das imagens durante o scroll mobile */
+
+@media (max-width: 768px) {
+    .site-backdrop {
+        height: 100svh;
+        min-height: 100svh;
+        overflow: hidden;
+    }
+    .backdrop-scene {
+        height: 100%;
+        background-size: cover;
+        background-position: center center;
+    }
+    .scene-living {
+        background-position: 58% center;
+    }
+}
