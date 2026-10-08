@@ -93,7 +93,7 @@ const projectsData = [{
     },
     {
         "id": "project3",
-        "category": "commercial",
+        "category": "academic",
         "thumb": "assets/projects/proj3/thumb.png",
         "cover": "assets/projects/proj3/thumb.png",
         "year": "2024",
@@ -113,19 +113,19 @@ const projectsData = [{
                 "title": "Edifício Multifuncional Saracura",
                 "shortDesc": "Edifício sustentável com foco em eficiência energética e integração urbana.",
                 "desc": "Edifício multifuncional sustentável focado em eficiência energética e integração urbana. Conta com materiais de alta retenção térmica, vidros duplos, painéis solares, HVAC, reúso de água, cobertura verde e paisagismo com espécies nativas, garantindo conforto, flexibilidade e sustentabilidade ecológica.",
-                "categoryLabel": "Comercial"
+                "categoryLabel": "Acadêmico"
             },
             "en": {
                 "title": "Multifunctional Building Saracura",
                 "shortDesc": "Sustainable building focused on energy efficiency and urban integration.",
                 "desc": "Sustainable multifunctional building focused on energy efficiency and urban integration. Features high thermal retention materials, double glazing, solar panels, HVAC, water reuse, green roof, and native landscaping, ensuring comfort, flexibility, and ecological sustainability.",
-                "categoryLabel": "Commercial"
+                "categoryLabel": "Academic"
             },
             "es": {
                 "title": "Edificio Multifuncional Saracura",
                 "shortDesc": "Edificio sostenible enfocado en eficiencia energética e integración urbana.",
                 "desc": "Edificio multifuncional sostenible enfocado en la eficiencia energética y la integración urbana. Presenta materiales de alta retención térmica, vidrios dobles, paneles solares, HVAC, reutilización de agua, cubierta verde y paisajismo con especies nativas, garantizando confort, flexibilidad y sostenibilidad ecológica.",
-                "categoryLabel": "Comercial"
+                "categoryLabel": "Académico"
             }
         }
     },
@@ -339,7 +339,7 @@ const projectsData = [{
     },
     {
         "id": "project9",
-        "category": "commercial",
+        "category": "academic",
         "thumb": "assets/projects/proj9/thumb.jpg",
         "cover": "assets/projects/proj9/thumb.jpg",
         "year": "2024",
@@ -362,19 +362,19 @@ const projectsData = [{
                 "title": "Flagship Vivara – Arquitetura de Interiores",
                 "shortDesc": "Loja de joias com foco em identidade da marca e experiência do cliente.",
                 "desc": "Loja de joias de alto padrão que ressalta a identidade da marca, microambientes e a experiência do cliente. Conta com mobiliário em madeira, tons salmão e iluminação estratégica para valorizar os produtos e aumentar o conforto.",
-                "categoryLabel": "Comercial"
+                "categoryLabel": "Acadêmico"
             },
             "en": {
                 "title": "Vivara Flagship – Interior Architecture",
                 "shortDesc": "Jewelry store focused on brand identity and customer experience.",
                 "desc": "Luxury jewelry store highlighting brand identity, microenvironments, and customer experience. Features wood furniture, salmon tones, and strategic lighting to showcase products and enhance comfort.",
-                "categoryLabel": "Commercial"
+                "categoryLabel": "Academic"
             },
             "es": {
                 "title": "Flagship Vivara – Arquitectura de Interiores",
                 "shortDesc": "Joyería enfocada en identidad de marca y experiencia del cliente.",
                 "desc": "Joyería de lujo que resalta la identidad de la marca, microambientes y experiencia del cliente. Presenta mobiliario de madera, tonos salmón e iluminación estratégica para destacar productos y mejorar el confort.",
-                "categoryLabel": "Comercial"
+                "categoryLabel": "Académico"
             }
         }
     },
@@ -415,7 +415,7 @@ const projectsData = [{
     },
     {
         "id": "project11",
-        "category": "commercial",
+        "category": "academic",
         "thumb": "assets/projects/proj11/thumb.jpeg",
         "cover": "assets/projects/proj11/thumb.jpeg",
         "year": "2024",
@@ -439,19 +439,19 @@ const projectsData = [{
                 "title": "Loja Insígnia FARM",
                 "shortDesc": "Loja com estética boho, iluminação estratégica e identidade vibrante da marca.",
                 "desc": "Loja de varejo com estética boho, iluminação voltada para a identidade da marca e destaque de produtos. Valoriza o conforto do cliente e a identidade vibrante, inspirada no universo praiano da FARM.",
-                "categoryLabel": "Comercial"
+                "categoryLabel": "Acadêmico"
             },
             "en": {
                 "title": "Farm Store Flagship",
                 "shortDesc": "Store with boho aesthetics, strategic lighting, and vibrant brand identity.",
                 "desc": "Retail store with boho aesthetics, brand-focused lighting, and product highlights. Emphasizes client comfort and the vibrant, beach-inspired identity of FARM.",
-                "categoryLabel": "Commercial"
+                "categoryLabel": "Academic"
             },
             "es": {
                 "title": "Tienda Insignia Farm",
                 "shortDesc": "Tienda con estética boho, iluminación estratégica e identidad vibrante de marca.",
                 "desc": "Tienda minorista con estética boho, iluminación enfocada en la marca y exhibición de productos. Enfatiza el confort del cliente y la identidad vibrante e inspirada en la playa de FARM.",
-                "categoryLabel": "Comercial"
+                "categoryLabel": "Académico"
             }
         }
     },
@@ -568,7 +568,7 @@ const projectsData = [{
     },
     {
         "id": "project15",
-        "category": "kitchen-design",
+        "category": "commercial",
         "thumb": "assets/projects/proj15/thumb.png",
         "cover": "assets/projects/proj15/thumb.png",
         "year": "2026",
@@ -588,19 +588,19 @@ const projectsData = [{
                 "title": "Analog Limerick - Reforma do Balcão de Serviço",
                 "shortDesc": "Reforma de balcão com solução modular integrada ao espaço existente.",
                 "desc": "Desenvolvimento de um novo módulo de balcão para a área de serviço do almoço, como parte da reforma do espaço existente. O design preserva as cores e a linguagem visual original, criando uma solução modular que pode ser estendida ao longo de toda a área de atendimento.",
-                "categoryLabel": "Design de Cozinhas"
+                "categoryLabel": "Comercial"
             },
             "en": {
                 "title": "Analog Limerick - Serving Counter Refurbishment",
                 "shortDesc": "Counter refurbishment with a modular solution integrated into the existing space.",
                 "desc": "Development of a new counter module for the lunchtime serving area as part of the refurbishment of the existing space. The design retains the original colours and visual identity while introducing a modular solution that can be extended throughout the serving area.",
-                "categoryLabel": "Kitchen Design"
+                "categoryLabel": "Commercial"
             },
             "es": {
                 "title": "Analog Limerick - Renovación del Mostrador de Servicio",
                 "shortDesc": "Renovación del mostrador con una solución modular integrada en el espacio existente.",
                 "desc": "Desarrollo de un nuevo módulo de mostrador para el área de servicio del almuerzo, como parte de la renovación del espacio existente. El diseño conserva los colores y la identidad visual original, incorporando una solución modular que puede extenderse a lo largo de toda el área de servicio.",
-                "categoryLabel": "Diseño de Cocinas"
+                "categoryLabel": "Comercial"
             }
         }
     },
@@ -685,10 +685,10 @@ const projectsData = [{
         "area": "88.60 m²",
         "software": "AutoCAD · Revit · Autodesk Rendering · AI-Assisted Rendering",
         "images": [
-            "assets/projects/proj18/proj18_1.png",
-            "assets/projects/proj18/proj18_2.png",
             "assets/projects/proj18/proj18_3.png",
-            "assets/projects/proj18/proj18_4.png"
+            "assets/projects/proj18/proj18_2.png",
+            "assets/projects/proj18/proj18_4.png",
+            "assets/projects/proj18/proj18_1.png"
         ],
         "translations": {
             "pt": {
@@ -899,7 +899,7 @@ const projectsData = [{
     },
     {
         "id": "project24",
-        "category": "kitchen-design",
+        "category": "commercial",
         "thumb": "assets/projects/proj24/thumb.png",
         "cover": "assets/projects/proj24/thumb.png",
         "year": "2026",
@@ -920,25 +920,25 @@ const projectsData = [{
                 "title": "Farnham Estate Cavan - Balcão de Serviço para Hóspedes",
                 "shortDesc": "Balcão de serviço para hotel que combina funcionalidade, armazenamento e integração com o design interior.",
                 "desc": "Desenvolvimento de um balcão de serviço para hóspedes do Farnham Estate, em Cavan, combinando funcionalidade operacional e integração com a estética do hotel. O projeto incorpora equipamentos para conservação e serviço de alimentos preparados, além de armazenamento integrado para louças e utensílios. A seleção de madeira, pedra e acabamentos foi pensada para harmonizar o balcão com os interiores existentes e criar uma solução elegante e adequada ao ambiente de hospitalidade.",
-                "categoryLabel": "Design de Cozinhas"
+                "categoryLabel": "Comercial"
             },
             "en": {
                 "title": "Farnham Estate Cavan - Guest Serving Counter",
                 "shortDesc": "Hotel serving counter combining functionality, integrated storage and interior design.",
                 "desc": "Development of a guest serving counter for Farnham Estate in Cavan, combining operational functionality with the hotel's interior aesthetic. The design incorporates equipment for holding and serving prepared food, alongside integrated storage for tableware and utensils. Timber, stone and finishes were selected to complement the existing interiors and create an elegant solution suited to the hospitality environment.",
-                "categoryLabel": "Kitchen Design"
+                "categoryLabel": "Commercial"
             },
             "es": {
                 "title": "Farnham Estate Cavan - Mostrador de Servicio para Huéspedes",
                 "shortDesc": "Mostrador de hotel que combina funcionalidad, almacenamiento integrado y diseño interior.",
                 "desc": "Desarrollo de un mostrador de servicio para los huéspedes de Farnham Estate, en Cavan, combinando funcionalidad operativa con la estética interior del hotel. El diseño incorpora equipos para conservar y servir alimentos preparados, además de almacenamiento integrado para vajilla y utensilios. La madera, la piedra y los acabados fueron seleccionados para armonizar con los interiores existentes y crear una solución elegante y adecuada para el entorno hotelero.",
-                "categoryLabel": "Diseño de Cocinas"
+                "categoryLabel": "Comercial"
             }
         }
     },
     {
         "id": "project26",
-        "category": "kitchen-design",
+        "category": "commercial",
         "thumb": "assets/projects/proj26/thumb.png",
         "cover": "assets/projects/proj26/thumb.png",
         "year": "2026",
@@ -955,19 +955,19 @@ const projectsData = [{
                 "title": "Fitzwilton Hotel - Área de Serviço",
                 "shortDesc": "Reforma da área de serviço para hóspedes, combinando funcionalidade e integração com o interior do hotel.",
                 "desc": "Reforma da área de serviço para hóspedes do Fitzwilton Hotel, em Waterford, com a introdução de um novo balcão e equipamentos para melhorar a experiência e a eficiência do serviço. A seleção da madeira, acabamentos e materiais foi pensada para harmonizar com o ambiente existente, integrando armazenamento e exposição de alimentos em uma solução funcional e adequada à identidade do hotel.",
-                "categoryLabel": "Design de Cozinhas"
+                "categoryLabel": "Comercial"
             },
             "en": {
                 "title": "Fitzwilton Hotel - Servery Area",
                 "shortDesc": "Refurbishment of the guest servery area combining functionality with the hotel's existing interior.",
                 "desc": "Refurbishment of the guest servery area at Fitzwilton Hotel in Waterford, introducing a new counter and equipment to improve both the guest experience and service efficiency. Timber, finishes and materials were selected to complement the existing interior, integrating food display and storage into a functional solution aligned with the hotel's identity.",
-                "categoryLabel": "Kitchen Design"
+                "categoryLabel": "Commercial"
             },
             "es": {
                 "title": "Fitzwilton Hotel - Área de Servicio",
                 "shortDesc": "Renovación del área de servicio para huéspedes, combinando funcionalidad con el interior existente del hotel.",
                 "desc": "Renovación del área de servicio para huéspedes del Fitzwilton Hotel, en Waterford, incorporando un nuevo mostrador y equipamiento para mejorar la experiencia de los huéspedes y la eficiencia del servicio. La madera, los acabados y los materiales fueron seleccionados para armonizar con el interior existente, integrando exposición y almacenamiento de alimentos en una solución funcional y acorde con la identidad del hotel.",
-                "categoryLabel": "Diseño de Cocinas"
+                "categoryLabel": "Comercial"
             }
         }
     },
@@ -1266,7 +1266,7 @@ const projectsData = [{
     },
     {
         "id": "project35",
-        "category": "kitchen-design",
+        "category": "commercial",
         "thumb": "assets/projects/proj35/thumb.png",
         "cover": "assets/projects/proj35/thumb.png",
         "year": "2026",
@@ -1289,25 +1289,25 @@ const projectsData = [{
                 "title": "Radisson Blu - Main Pass & Cook Line",
                 "shortDesc": "Retrofit da área principal de passe e cocção, integrando novos equipamentos, armazenamento refrigerado e um balcão de serviço personalizado.",
                 "desc": "Retrofit da área principal de passe e cocção do Radisson Blu em Dublin, desenvolvido para modernizar uma operação de restaurante de alto volume e melhorar o fluxo entre cozinha e serviço. O projeto incorpora uma nova linha de cocção com equipamentos profissionais em aço inoxidável, além de um balcão de passe personalizado com acabamento em pedra selecionado para harmonizar com o interior existente. A área de serviço integra equipamentos para manutenção da temperatura dos alimentos, prateleira aquecida para pratos e armazenamento refrigerado sob o balcão. A distribuição dos equipamentos foi planejada para proporcionar um fluxo de trabalho eficiente, acesso rápido durante o serviço, durabilidade, higiene e facilidade de manutenção.",
-                "categoryLabel": "Design de Cozinhas"
+                "categoryLabel": "Comercial"
             },
             "en": {
                 "title": "Radisson Blu - Main Pass & Cook Line",
                 "shortDesc": "Retrofit of the main pass and cook line, integrating new equipment, refrigerated storage, and a bespoke service counter.",
                 "desc": "Retrofit of the main pass and cook line at Radisson Blu in Dublin, developed to modernise a high-volume restaurant operation and improve the workflow between kitchen and service. The project incorporates a new cook line with professional stainless-steel equipment, together with a bespoke pass counter featuring a stone finish selected to complement the existing interior. The service area integrates food-holding equipment, a heated plate shelf, and under-counter refrigerated storage. The equipment layout was carefully planned to provide an efficient workflow, quick access during service, durability, hygiene, and ease of maintenance.",
-                "categoryLabel": "Kitchen Design"
+                "categoryLabel": "Commercial"
             },
             "es": {
                 "title": "Radisson Blu - Main Pass & Cook Line",
                 "shortDesc": "Renovación del área principal de pase y cocción, integrando nuevos equipos, almacenamiento refrigerado y un mostrador de servicio personalizado.",
                 "desc": "Renovación del área principal de pase y cocción del Radisson Blu en Dublín, desarrollada para modernizar una operación de restaurante de alto volumen y mejorar el flujo entre la cocina y el servicio. El proyecto incorpora una nueva línea de cocción con equipos profesionales de acero inoxidable, junto con un mostrador de pase personalizado con un acabado en piedra seleccionado para armonizar con el interior existente. El área de servicio integra equipos para mantener los alimentos a la temperatura adecuada, una estantería calefactada para platos y almacenamiento refrigerado bajo el mostrador. La distribución de los equipos fue cuidadosamente planificada para proporcionar un flujo de trabajo eficiente, acceso rápido durante el servicio, durabilidad, higiene y facilidad de mantenimiento.",
-                "categoryLabel": "Diseño de Cocinas"
+                "categoryLabel": "Comercial"
             }
         }
     },
     {
         "id": "project36",
-        "category": "kitchen-design",
+        "category": "commercial",
         "thumb": "assets/projects/proj36/thumb.png",
         "cover": "assets/projects/proj36/thumb.png",
         "year": "2026",
@@ -1328,19 +1328,19 @@ const projectsData = [{
                 "title": "The Jesuit Centre for Faith and Justice - Servery Counter",
                 "shortDesc": "Desenvolvimento de um novo balcão de serviço com refrigeração integrada, armazenamento e acabamentos personalizados para o espaço existente.",
                 "desc": "Desenvolvimento de um novo balcão de serviço para o The Jesuit Centre for Faith and Justice, com duas opções de design apresentadas ao cliente. A proposta integra um equipamento refrigerado para exposição e conservação dos alimentos, juntamente com refrigeração incorporada sob o balcão e áreas de armazenamento de fácil acesso. A pedra da bancada e o acabamento em madeira foram selecionados de acordo com as preferências do cliente e cuidadosamente combinados com os materiais e acabamentos existentes no ambiente. O projeto equilibra funcionalidade, armazenamento, conservação adequada dos alimentos e integração estética, criando uma solução prática e visualmente coerente com o espaço.",
-                "categoryLabel": "Design de Cozinhas"
+                "categoryLabel": "Comercial"
             },
             "en": {
                 "title": "The Jesuit Centre for Faith and Justice - Servery Counter",
                 "shortDesc": "Design of a new servery counter with integrated refrigeration, storage, and bespoke finishes to complement the existing space.",
                 "desc": "Design of a new servery counter for The Jesuit Centre for Faith and Justice, with two design options developed and presented to the client. The proposal integrates refrigerated food display and holding equipment, together with under-counter refrigeration and easily accessible storage. The worktop stone and timber finishes were selected according to the client's requirements and carefully coordinated with the materials and finishes of the existing interior. The design balances functionality, storage, appropriate food holding, and visual integration, creating a practical solution that complements the surrounding space.",
-                "categoryLabel": "Kitchen Design"
+                "categoryLabel": "Commercial"
             },
             "es": {
                 "title": "The Jesuit Centre for Faith and Justice - Servery Counter",
                 "shortDesc": "Diseño de un nuevo mostrador de servicio con refrigeración integrada, almacenamiento y acabados personalizados para complementar el espacio existente.",
                 "desc": "Diseño de un nuevo mostrador de servicio para The Jesuit Centre for Faith and Justice, con dos opciones de diseño desarrolladas y presentadas al cliente. La propuesta integra equipos refrigerados para la exposición y conservación de alimentos, junto con refrigeración bajo el mostrador y áreas de almacenamiento de fácil acceso. La piedra de la encimera y los acabados en madera fueron seleccionados de acuerdo con los requisitos del cliente y cuidadosamente coordinados con los materiales y acabados del interior existente. El diseño equilibra funcionalidad, almacenamiento, conservación adecuada de los alimentos e integración estética, creando una solución práctica y visualmente coherente con el espacio.",
-                "categoryLabel": "Diseño de Cocinas"
+                "categoryLabel": "Comercial"
             }
         }
     },
@@ -1354,8 +1354,9 @@ const projectsData = [{
         "area": "14.62 m²",
         "software": "AutoCAD · Revit · Autodesk Rendering · AI-Assisted Rendering",
         "images": [
-            "assets/projects/proj37/proj37_1.png",
-            "assets/projects/proj37/proj37_2.png"
+            "assets/projects/proj37/proj37_2.png",
+            "assets/projects/proj37/proj37_1.png"
+
         ],
         "translations": {
             "pt": {
@@ -1380,7 +1381,7 @@ const projectsData = [{
     },
     {
         "id": "project38",
-        "category": "kitchen-design",
+        "category": "commercial",
         "thumb": "assets/projects/proj38/thumb.png",
         "cover": "assets/projects/proj38/thumb.png",
         "year": "2026",
@@ -1404,22 +1405,254 @@ const projectsData = [{
                 "title": "Tusla Ferryhouse Clonmel - Servery Retrofit",
                 "shortDesc": "Retrofit completo de uma área de serviço existente, com novos equipamentos, melhor armazenamento e maior eficiência operacional.",
                 "desc": "Retrofit completo da área de serviço existente no Tusla Ferryhouse, em Clonmel, com foco na modernização dos equipamentos e na melhoria da funcionalidade do espaço. O projeto reorganiza a linha de serviço com novos equipamentos em aço inoxidável, incluindo unidades refrigeradas e de exposição de alimentos, além de soluções adicionais para armazenamento e apoio às operações diárias. A nova configuração foi desenvolvida para melhorar o fluxo de trabalho, facilitar o acesso aos equipamentos e aumentar a capacidade de armazenamento. O uso extensivo de aço inoxidável proporciona superfícies resistentes, duráveis e de fácil higienização, simplificando os procedimentos de limpeza e manutenção e criando uma área de serviço mais eficiente e adequada às necessidades atuais da operação.",
-                "categoryLabel": "Design de Cozinhas"
+                "categoryLabel": "Comercial"
             },
             "en": {
                 "title": "Tusla Ferryhouse Clonmel - Servery Retrofit",
                 "shortDesc": "Complete retrofit of an existing servery with new equipment, improved storage and greater operational efficiency.",
                 "desc": "Complete retrofit of the existing servery at Tusla Ferryhouse in Clonmel, focused on modernising the equipment and improving the overall functionality of the space. The project reorganises the service line with new stainless-steel equipment, including refrigerated and food display units, together with additional storage and operational support solutions. The new configuration was developed to improve workflow, provide easier access to equipment and increase storage capacity. Extensive use of stainless steel provides durable, resistant and easy-to-clean surfaces, simplifying cleaning and maintenance procedures while creating a more efficient servery suited to the current operational requirements.",
-                "categoryLabel": "Kitchen Design"
+                "categoryLabel": "Commercial"
             },
             "es": {
                 "title": "Tusla Ferryhouse Clonmel - Retrofit del Área de Servicio",
                 "shortDesc": "Renovación integral de un área de servicio existente con nuevos equipos, mayor almacenamiento y una operación más eficiente.",
                 "desc": "Renovación integral del área de servicio existente en Tusla Ferryhouse, Clonmel, enfocada en modernizar los equipos y mejorar la funcionalidad general del espacio. El proyecto reorganiza la línea de servicio mediante nuevos equipos de acero inoxidable, incluyendo unidades refrigeradas y de exposición de alimentos, además de soluciones adicionales de almacenamiento y apoyo a las operaciones diarias. La nueva configuración fue desarrollada para mejorar el flujo de trabajo, facilitar el acceso a los equipos y aumentar la capacidad de almacenamiento. El uso extensivo de acero inoxidable proporciona superficies resistentes, duraderas y fáciles de higienizar, simplificando los procedimientos de limpieza y mantenimiento y creando un área de servicio más eficiente y adaptada a las necesidades actuales de la operación.",
-                "categoryLabel": "Diseño de Cocinas"
+                "categoryLabel": "Comercial"
             }
         }
-    }
+    },
+    {
+        id: "project39",
+        category: "commercial",
+        thumb: "assets/projects/proj39/thumb.png",
+        cover: "assets/projects/proj39/thumb.png",
+        year: "2026",
+        location: "Ireland",
+        area: "16.92 m²",
+        software: "AutoCAD · Revit · Autodesk Rendering · AI-Assisted Rendering",
+        images: [
+            "assets/projects/proj39/proj39_2.png",
+            "assets/projects/proj39/proj39_3.png",
+            "assets/projects/proj39/proj39_4.png",
+            "assets/projects/proj39/proj39_5.png",
+            "assets/projects/proj39/proj39_6.png"
+        ],
+        translations: {
+            pt: {
+                title: "Fitzwilton Hotel — L Shaped Breakfast Counter",
+                shortDesc: "Desenvolvimento de dois balcões para a área de refeições do hotel, combinando acabamentos em madeira, pedra clara e soluções integradas de armazenamento.",
+                desc: "Projeto de dois balcões personalizados para a área de refeições do Fitzwilton Hotel, desenvolvidos para atender às necessidades de serviço de café da manhã e lanches dos hóspedes. A proposta inclui um balcão em formato de L e uma ilha independente, organizados para proporcionar uma circulação fluida e facilitar o acesso durante o serviço. O design combina painéis de madeira com detalhes ripados e bancadas em pedra clara, criando uma composição contemporânea e acolhedora, integrada à estética existente do hotel. Ambos os balcões incorporam armários e compartimentos de armazenamento na parte inferior, oferecendo soluções práticas para a organização de utensílios e materiais de apoio. A seleção dos materiais, o detalhamento dos acabamentos e a distribuição dos elementos foram cuidadosamente considerados para equilibrar funcionalidade, durabilidade e integração visual, proporcionando um ambiente elegante e eficiente para a experiência dos hóspedes.",
+                categoryLabel: "Comercial"
+            },
+            en: {
+                title: "Fitzwilton Hotel — L Shaped Breakfast Counter",
+                shortDesc: "Design of two bespoke counters for the hotel's dining area, combining timber finishes, light stone worktops and integrated storage solutions.",
+                desc: "Design of two bespoke counters for the dining area at Fitzwilton Hotel, developed to accommodate breakfast and light refreshment services for hotel guests. The proposal features an L-shaped counter and a freestanding island, arranged to support smooth circulation and convenient access during service. The design combines timber cabinetry with decorative slatted detailing and light-coloured stone worktops, creating a contemporary and welcoming composition that complements the hotel's existing interior. Both counters incorporate integrated base cabinets and storage compartments, providing practical solutions for organising utensils and service essentials. Material selection, finishing details and spatial arrangement were carefully considered to balance functionality, durability and visual integration, resulting in an elegant and efficient hospitality environment that enhances the guest experience.",
+                categoryLabel: "Commercial"
+            },
+            es: {
+                title: "Fitzwilton Hotel — Mostradores de Desayuno en Forma de L",
+                shortDesc: "Diseño de dos mostradores a medida para el área de restauración del hotel, combinando acabados de madera, piedra clara y almacenamiento integrado.",
+                desc: "Diseño de dos mostradores personalizados para el área de restauración del Fitzwilton Hotel, desarrollados para atender el servicio de desayunos y refrigerios de los huéspedes. La propuesta incluye un mostrador en forma de L y una isla independiente, distribuidos para favorecer una circulación fluida y facilitar el acceso durante el servicio. El diseño combina mobiliario de madera con detalles decorativos de listones y encimeras de piedra clara, creando una composición contemporánea y acogedora que se integra con el interior existente del hotel. Ambos mostradores incorporan armarios inferiores y compartimentos de almacenamiento, ofreciendo soluciones prácticas para organizar utensilios y elementos de apoyo. La selección de materiales, los detalles de acabado y la distribución espacial se estudiaron cuidadosamente para equilibrar funcionalidad, durabilidad e integración visual, dando como resultado un ambiente elegante y eficiente que mejora la experiencia de los huéspedes.",
+                categoryLabel: "Comercial"
+            }
+        }
+    },
+    {
+        id: "project40",
+        category: "kitchen-design",
+        thumb: "assets/projects/proj40/thumb.png",
+        cover: "assets/projects/proj40/thumb.png",
+        year: "2026",
+        location: "Tullamore, Ireland",
+        area: "112.37 m²",
+        software: "AutoCAD · Revit · Autodesk Rendering · AI-Assisted Rendering",
+        images: [
+            "assets/projects/proj40/proj40_1.png",
+            "assets/projects/proj40/proj40_2.png",
+            "assets/projects/proj40/proj40_3.png",
+            "assets/projects/proj40/proj40_4.png",
+            "assets/projects/proj40/proj40_5.png",
+            "assets/projects/proj40/proj40_6.png",
+            "assets/projects/proj40/proj40_7.png",
+            "assets/projects/proj40/proj40_8.png",
+            "assets/projects/proj40/proj40_9.png",
+            "assets/projects/proj40/proj40_10.png"
+        ],
+        translations: {
+            pt: {
+                title: "Mowlam Tullamore Nursing Home — Kitchen Layout",
+                shortDesc: "Desenvolvimento de uma cozinha profissional para uma nova casa de repouso, integrando áreas de armazenamento, preparação, cocção e lavagem com foco em eficiência, higiene e fluxo operacional.",
+                desc: "Desenvolvimento completo do layout de uma nova cozinha profissional para o Mowlam Tullamore Nursing Home, em Tullamore, Irlanda. Concebido do zero, o projeto foi planejado para atender às necessidades operacionais de uma instituição de cuidados a idosos, priorizando eficiência, higiene, segurança e organização dos fluxos de trabalho. A distribuição funcional contempla áreas específicas de armazenamento refrigerado e congelado, incluindo câmara fria (cold room), câmara de congelamento (freezer room) e depósito de alimentos secos (dry goods store), além de espaços dedicados à preparação de alimentos, cocção e lavagem de louças. A área de cocção foi organizada em torno de uma ilha central equipada com equipamentos profissionais, proporcionando acesso funcional e melhor integração entre as etapas de preparação e produção. Bancadas, mesas de trabalho, equipamentos e superfícies de apoio em aço inoxidável foram especificados para proporcionar resistência, durabilidade, facilidade de higienização e manutenção. A organização espacial busca favorecer a circulação dos funcionários, a separação das atividades e a continuidade dos processos operacionais, contribuindo para uma cozinha eficiente, funcional e adequada às exigências de um ambiente de cuidados de saúde.",
+                categoryLabel: "Kitchen Design"
+            },
+            en: {
+                title: "Mowlam Tullamore Nursing Home — Kitchen Layout",
+                shortDesc: "Complete design of a professional kitchen for a new nursing home, integrating storage, preparation, cooking and warewashing areas with a focus on efficiency, hygiene and operational workflow.",
+                desc: "Complete kitchen layout design for the new Mowlam Tullamore Nursing Home in Tullamore, Ireland. Developed from the ground up, the project was carefully planned to meet the operational requirements of a residential care facility, prioritising efficiency, hygiene, safety and well-organised workflows. The functional layout incorporates dedicated refrigerated and frozen storage facilities, including a cold room, freezer room and dry goods store, alongside designated areas for food preparation, cooking and warewashing. The cooking area is arranged around a central island equipped with professional catering equipment, providing practical access and improving coordination between food preparation and production activities. Stainless-steel worktops, preparation tables, equipment and supporting surfaces were specified for their strength, durability, ease of cleaning and low maintenance requirements. The spatial organisation was designed to support staff circulation, appropriate separation of operational activities and a logical progression between workstations, creating a practical, hygienic and efficient commercial kitchen tailored to the demands of a healthcare and residential care environment.",
+                categoryLabel: "Kitchen Design"
+            },
+            es: {
+                title: "Mowlam Tullamore Nursing Home — Diseño de Cocina Profesional",
+                shortDesc: "Diseño integral de una cocina profesional para una nueva residencia de mayores, con áreas de almacenamiento, preparación, cocción y lavado, priorizando la eficiencia, la higiene y el flujo operativo.",
+                desc: "Desarrollo integral del diseño de una nueva cocina profesional para Mowlam Tullamore Nursing Home, en Tullamore, Irlanda. Concebido desde cero, el proyecto fue planificado para satisfacer las necesidades operativas de una residencia de atención a personas mayores, priorizando la eficiencia, la higiene, la seguridad y la organización de los flujos de trabajo. La distribución funcional incorpora espacios específicos para el almacenamiento refrigerado y congelado, incluyendo una cámara frigorífica (cold room), una cámara de congelación (freezer room) y un almacén de productos secos (dry goods store), además de zonas destinadas a la preparación de alimentos, cocción y lavado de vajilla. El área de cocción se organiza alrededor de una isla central equipada con maquinaria profesional, facilitando el acceso y mejorando la coordinación entre las distintas etapas de preparación y producción. Se especificaron encimeras, mesas de trabajo, equipos y superficies auxiliares de acero inoxidable por su resistencia, durabilidad, facilidad de limpieza y bajo mantenimiento. La organización espacial busca favorecer la circulación del personal, la separación adecuada de las actividades y una secuencia lógica entre las estaciones de trabajo, creando una cocina profesional funcional, higiénica y eficiente, adaptada a las necesidades de un entorno sanitario y de atención residencial.",
+                categoryLabel: "Kitchen Design"
+            }
+        }
+    },
+
+    {
+        id: "project41",
+        category: "kitchen-design",
+        thumb: "assets/projects/proj41/thumb.png",
+        cover: "assets/projects/proj41/thumb.png",
+        year: "2026",
+        location: "Mulranny, Ireland",
+        area: "150.44 m²",
+        software: "AutoCAD · Revit · Autodesk Rendering · AI-Assisted Rendering",
+        images: [
+            "assets/projects/proj41/proj41_1.png",
+            "assets/projects/proj41/proj41_2.png",
+            "assets/projects/proj41/proj41_3.png",
+            "assets/projects/proj41/proj41_4.png",
+            "assets/projects/proj41/proj41_5.png",
+            "assets/projects/proj41/proj41_6.png",
+            "assets/projects/proj41/proj41_7.png",
+            "assets/projects/proj41/proj41_8.png",
+            "assets/projects/proj41/proj41_9.png",
+            "assets/projects/proj41/proj41_10.png"
+        ],
+        translations: {
+            pt: {
+                title: "Mulranny Park Hotel — Kitchen Layout",
+                shortDesc: "Modernização de uma cozinha profissional existente, com integração de um novo balcão de expedição (main pass) e equipamentos adicionais para otimizar o fluxo operacional.",
+                desc: "Projeto de modernização e reorganização funcional da cozinha profissional existente do Mulranny Park Hotel, em Mulranny, Irlanda. A intervenção foi desenvolvida para integrar novos equipamentos à infraestrutura existente, preservando os elementos operacionais que permaneceriam em uso e priorizando a eficiência das atividades diárias. Um dos principais elementos da proposta foi a introdução de um novo balcão de expedição (main pass), destinado a melhorar a organização, a finalização e a transferência dos pratos entre a cozinha e a equipe de serviço. O projeto também contempla a incorporação de equipamentos profissionais e superfícies de apoio em aço inoxidável, distribuídos de acordo com as necessidades das diferentes estações de trabalho. O planejamento do layout considerou cuidadosamente a localização dos equipamentos existentes, os espaços de circulação e a relação entre as áreas de preparação, cocção e expedição. A proposta busca proporcionar um fluxo de trabalho mais organizado, facilitar a comunicação entre as equipes e melhorar a funcionalidade geral da cozinha, respeitando as limitações e características da estrutura existente.",
+                categoryLabel: "Kitchen Design"
+            },
+            en: {
+                title: "Mulranny Park Hotel — Kitchen Layout",
+                shortDesc: "Refurbishment of an existing commercial kitchen, integrating a new main pass and additional professional equipment to improve operational workflow.",
+                desc: "Refurbishment and functional reorganisation of the existing commercial kitchen at Mulranny Park Hotel in Mulranny, Ireland. The project was developed to integrate new catering equipment within the existing infrastructure while retaining operational elements intended to remain in use and prioritising efficiency throughout daily kitchen activities. A key feature of the proposal was the introduction of a new main pass, designed to improve the organisation, finishing and transfer of dishes between the kitchen and front-of-house service team. The scheme also incorporates additional professional catering equipment and stainless-steel work surfaces, strategically positioned to support the requirements of individual workstations. The layout planning carefully considered the location of existing equipment, circulation routes and the relationship between food preparation, cooking and service areas. The proposed arrangement aims to establish a more structured workflow, facilitate coordination between kitchen staff and improve overall operational functionality while responding to the spatial constraints and characteristics of the existing kitchen.",
+                categoryLabel: "Kitchen Design"
+            },
+            es: {
+                title: "Mulranny Park Hotel — Diseño de Cocina Profesional",
+                shortDesc: "Modernización de una cocina profesional existente mediante la incorporación de un nuevo pase de cocina y equipos adicionales para optimizar el flujo operativo.",
+                desc: "Proyecto de modernización y reorganización funcional de la cocina profesional existente del Mulranny Park Hotel, en Mulranny, Irlanda. La intervención fue desarrollada para integrar nuevos equipos de cocina en la infraestructura existente, conservando los elementos operativos previstos para continuar en uso y priorizando la eficiencia de las actividades diarias. Uno de los elementos principales de la propuesta fue la incorporación de un nuevo pase de cocina (main pass), diseñado para mejorar la organización, el acabado y la transferencia de los platos entre la cocina y el personal de servicio. El proyecto también contempla la incorporación de equipos profesionales y superficies de trabajo de acero inoxidable, distribuidos estratégicamente según las necesidades de las diferentes estaciones. La planificación del diseño consideró cuidadosamente la ubicación de los equipos existentes, las rutas de circulación y la relación entre las áreas de preparación, cocción y servicio. La propuesta busca establecer un flujo de trabajo más organizado, facilitar la coordinación entre los equipos y mejorar la funcionalidad general de la cocina, respetando las limitaciones espaciales y las características de la infraestructura existente.",
+                categoryLabel: "Kitchen Design"
+            }
+        }
+    },
+    {
+        id: "project42",
+        category: "kitchen-design",
+        thumb: "assets/projects/proj42/thumb.png",
+        cover: "assets/projects/proj42/thumb.png",
+        year: "2026",
+        location: "Limerick, Ireland",
+        area: "137.30 m²",
+        software: "AutoCAD · Revit · Autodesk Rendering · AI-Assisted Rendering",
+        images: [
+            "assets/projects/proj42/proj42_1.png",
+            "assets/projects/proj42/proj42_2.png",
+            "assets/projects/proj42/proj42_3.png",
+            "assets/projects/proj42/proj42_4.png",
+            "assets/projects/proj42/proj42_5.png",
+            "assets/projects/proj42/proj42_6.png"
+        ],
+        translations: {
+            pt: {
+                title: "New Community Centre Kings Island — Kitchen Layout",
+                shortDesc: "Desenvolvimento completo de uma cozinha profissional para um centro comunitário, integrando áreas de armazenamento, preparação, cocção, lavagem e distribuição de alimentos.",
+                desc: "Desenvolvimento do layout de uma nova cozinha profissional para o New Community Centre Kings Island, em Limerick, Irlanda. Concebido do zero, o projeto foi planejado para atender às necessidades operacionais de um centro comunitário, priorizando funcionalidade, higiene, eficiência e organização dos fluxos de trabalho. A distribuição espacial contempla áreas específicas para armazenamento de alimentos, incluindo câmara fria (cold room), câmara de congelamento (freezer room) e depósito de alimentos secos (dry goods store), além de espaços dedicados à preparação, cocção e lavagem de louças. A área de cocção foi organizada em torno de uma ilha central equipada com equipamentos profissionais, proporcionando uma configuração funcional para as atividades diárias. O projeto também incorpora um balcão de distribuição e exposição de alimentos, equipado com unidades de conservação e apresentação que permitem organizar os produtos e facilitar o atendimento aos usuários do centro comunitário. A seleção de equipamentos e superfícies de trabalho em aço inoxidável favorece a durabilidade, a facilidade de higienização e a manutenção. O planejamento considerou a relação entre as áreas de produção e atendimento, buscando estabelecer uma circulação eficiente, melhorar a integração entre as atividades e criar um ambiente funcional, organizado e adequado às necessidades de uma cozinha comunitária.",
+                categoryLabel: "Kitchen Design"
+            },
+            en: {
+                title: "New Community Centre Kings Island — Kitchen Layout",
+                shortDesc: "Complete commercial kitchen design for a new community centre, integrating food storage, preparation, cooking, warewashing and food service areas.",
+                desc: "Complete commercial kitchen layout design for the New Community Centre Kings Island in Limerick, Ireland. Developed from the ground up, the project was planned to meet the operational requirements of a community facility, prioritising functionality, hygiene, efficiency and well-organised workflows. The spatial arrangement incorporates dedicated food storage facilities, including a cold room, freezer room and dry goods store, alongside designated areas for food preparation, cooking and warewashing. The cooking area is organised around a central island equipped with professional catering equipment, providing a practical configuration for daily food production activities. The project also features a dedicated food service and display counter, incorporating food holding and display equipment to support organised presentation and convenient service to community centre users. Stainless-steel catering equipment and work surfaces were selected for their durability, ease of cleaning and maintenance. The overall layout carefully considers the relationship between back-of-house production and front-of-house service areas, aiming to establish efficient circulation, improve coordination between operational activities and create a functional, organised and practical kitchen environment suited to the needs of a modern community facility.",
+                categoryLabel: "Kitchen Design"
+            },
+            es: {
+                title: "New Community Centre Kings Island — Diseño de Cocina Profesional",
+                shortDesc: "Diseño integral de una cocina profesional para un nuevo centro comunitario, con áreas de almacenamiento, preparación, cocción, lavado y distribución de alimentos.",
+                desc: "Desarrollo integral del diseño de una nueva cocina profesional para el New Community Centre Kings Island, en Limerick, Irlanda. Concebido desde cero, el proyecto fue planificado para satisfacer las necesidades operativas de un centro comunitario, priorizando la funcionalidad, la higiene, la eficiencia y la organización de los flujos de trabajo. La distribución espacial incorpora instalaciones específicas para el almacenamiento de alimentos, incluyendo una cámara frigorífica (cold room), una cámara de congelación (freezer room) y un almacén de productos secos (dry goods store), además de zonas destinadas a la preparación, cocción y lavado de vajilla. El área de cocción se organiza alrededor de una isla central equipada con maquinaria profesional, proporcionando una configuración práctica para las actividades diarias de producción de alimentos. El proyecto también incluye un mostrador de servicio y exposición de alimentos, equipado con unidades de conservación y presentación que permiten organizar los productos y facilitar la atención a los usuarios del centro comunitario. Los equipos y las superficies de trabajo de acero inoxidable fueron seleccionados por su durabilidad, facilidad de limpieza y mantenimiento. La distribución general considera cuidadosamente la relación entre las áreas de producción y servicio, buscando establecer una circulación eficiente, mejorar la coordinación entre las actividades operativas y crear una cocina funcional, organizada y adaptada a las necesidades de un centro comunitario moderno.",
+                categoryLabel: "Kitchen Design"
+            }
+        }
+    },
+    {
+        id: "project43",
+        category: "commercial",
+        thumb: "assets/projects/proj43/thumb.png",
+        cover: "assets/projects/proj43/thumb.png",
+        year: "2026",
+        location: "Shannon, Ireland",
+        area: "63.27 m²",
+        software: "AutoCAD · Revit · Autodesk Rendering · AI-Assisted Rendering",
+        images: [
+            "assets/projects/proj43/proj43_1.png",
+            "assets/projects/proj43/proj43_2.png",
+            "assets/projects/proj43/proj43_3.png",
+            "assets/projects/proj43/proj43_4.png"
+        ],
+        translations: {
+            pt: {
+                title: "Park Inn Hotel Shannon — Food Service Counter",
+                shortDesc: "Desenvolvimento de um balcão de alimentação para hotel, integrando acabamentos em madeira e pedra, equipamentos de conservação de alimentos quentes e soluções funcionais de armazenamento.",
+                desc: "Desenvolvimento de um balcão personalizado para a área de café e alimentação do Park Inn Hotel, localizado no Aeroporto de Shannon, Irlanda. O projeto foi concebido para integrar funcionalidade operacional e qualidade estética, criando uma área de serviço alinhada à identidade visual e aos acabamentos existentes do hotel. A proposta combina revestimentos em madeira, bancadas em pedra clara e detalhes de iluminação integrada, proporcionando uma composição elegante, acolhedora e adequada ao ambiente de hospitalidade. O balcão incorpora equipamentos profissionais destinados à conservação e ao serviço de alimentos quentes, incluindo unidades de manutenção de temperatura para preparações alimentícias, equipamentos para serviço de sopas e soluções para armazenamento e aquecimento de pratos. Foram também previstos compartimentos de armazenamento e áreas de apoio para facilitar a organização de utensílios e materiais utilizados durante o atendimento. A distribuição dos equipamentos e das superfícies de trabalho foi planejada para favorecer a acessibilidade, a organização e a eficiência das operações, equilibrando as necessidades funcionais do serviço de alimentação com uma apresentação visual sofisticada e integrada ao espaço existente.",
+                categoryLabel: "Comercial"
+            },
+            en: {
+                title: "Park Inn Hotel Shannon — Food Service Counter",
+                shortDesc: "Design of a bespoke hotel food service counter, combining timber and stone finishes with hot food holding equipment and integrated storage solutions.",
+                desc: "Design of a bespoke food service counter for the café and dining area at Park Inn Hotel, located at Shannon Airport, Ireland. The project was developed to combine operational functionality with refined aesthetics, creating a service area that complements the hotel's existing interior finishes and overall design character. The proposal incorporates timber cabinetry, light-coloured stone worktops and integrated accent lighting, establishing an elegant and welcoming hospitality environment. The counter features professional hot food holding and serving equipment, including temperature-controlled units for prepared food, soup service equipment and dedicated solutions for plate storage and warming. Integrated cabinetry and supporting storage compartments were also incorporated to facilitate the organisation of utensils and service essentials. The arrangement of equipment and work surfaces was carefully considered to improve accessibility, maintain an organised service environment and support efficient daily operations. The overall design balances the practical requirements of hotel food service with a sophisticated visual presentation, ensuring a cohesive integration with the existing architectural surroundings.",
+                categoryLabel: "Commercial"
+            },
+            es: {
+                title: "Park Inn Hotel Shannon — Mostrador de Servicio de Alimentos",
+                shortDesc: "Diseño de un mostrador de alimentación para hotel, combinando acabados de madera y piedra con equipos de conservación de alimentos calientes y almacenamiento integrado.",
+                desc: "Diseño de un mostrador personalizado para el área de cafetería y restauración del Park Inn Hotel, ubicado en el Aeropuerto de Shannon, Irlanda. El proyecto fue desarrollado para combinar funcionalidad operativa y calidad estética, creando un espacio de servicio que complementa los acabados interiores existentes y la identidad visual del hotel. La propuesta incorpora mobiliario de madera, encimeras de piedra clara e iluminación decorativa integrada, proporcionando un ambiente elegante y acogedor, adecuado para un entorno hotelero. El mostrador incluye equipos profesionales para la conservación y el servicio de alimentos calientes, como unidades de mantenimiento de temperatura para preparaciones alimenticias, equipos para el servicio de sopas y soluciones específicas para el almacenamiento y calentamiento de platos. También se incorporaron armarios y compartimentos de almacenamiento para facilitar la organización de utensilios y elementos necesarios durante el servicio. La distribución de los equipos y las superficies de trabajo fue cuidadosamente planificada para mejorar la accesibilidad, mantener un entorno organizado y favorecer la eficiencia de las operaciones diarias. El diseño equilibra las necesidades funcionales del servicio de alimentación con una presentación visual sofisticada e integrada en el entorno arquitectónico existente.",
+                categoryLabel: "Comercial"
+            }
+        }
+    },
+    {
+        id: "project44",
+        category: "kitchen-design",
+        thumb: "assets/projects/proj44/thumb.png",
+        cover: "assets/projects/proj44/thumb.png",
+        year: "2026",
+        location: "Limerick, Ireland",
+        area: "31.73 m²",
+        software: "AutoCAD · Revit · Autodesk Rendering · AI-Assisted Rendering",
+        images: [
+            "assets/projects/proj44/proj44_1.png",
+            "assets/projects/proj44/proj44_2.png",
+            "assets/projects/proj44/proj44_3.png"
+        ],
+        translations: {
+            pt: {
+                title: "Texas Steakout — Kitchen Layout",
+                shortDesc: "Desenvolvimento de uma cozinha comercial em pavimento superior, considerando dimensões, peso dos equipamentos e otimização do espaço para maior eficiência operacional.",
+                desc: "Desenvolvimento do layout de uma nova cozinha comercial para o restaurante Texas Steakout, localizado em Limerick, Irlanda. O projeto foi concebido do zero para uma área de 31,73 m² situada em um pavimento superior, apresentando desafios específicos relacionados às limitações espaciais e às características físicas dos equipamentos profissionais. A seleção e a distribuição dos equipamentos foram cuidadosamente estudadas, considerando suas dimensões, peso e posicionamento, de modo a compatibilizar as necessidades operacionais da cozinha com as condições do espaço disponível. A organização do layout priorizou a utilização eficiente da área, a acessibilidade aos equipamentos e a criação de um fluxo de trabalho funcional para as atividades diárias de preparação e cocção. O planejamento também considerou a circulação dos funcionários, as áreas necessárias para operação e manutenção dos equipamentos e a organização das superfícies de trabalho. A proposta busca equilibrar eficiência, funcionalidade e aproveitamento espacial, demonstrando a importância do planejamento técnico no desenvolvimento de cozinhas profissionais em locais com restrições físicas e operacionais.",
+                categoryLabel: "Kitchen Design"
+            },
+            en: {
+                title: "Texas Steakout — Kitchen Layout",
+                shortDesc: "Design of a new upper-floor commercial kitchen, carefully considering equipment dimensions, weight and spatial optimisation to support efficient operations.",
+                desc: "Development of a new commercial kitchen layout for Texas Steakout restaurant in Limerick, Ireland. Designed from scratch within a 31.73 m² upper-floor space, the project presented specific challenges associated with spatial limitations and the physical characteristics of professional catering equipment. Particular attention was given to equipment selection and positioning, considering individual dimensions, weight and spatial requirements to ensure compatibility with the available kitchen environment. The layout was carefully organised to maximise the use of the limited floor area while supporting efficient food preparation and cooking operations. Equipment accessibility, staff circulation, working clearances and maintenance requirements were considered throughout the design process to establish a practical and functional working environment. The proposal focuses on balancing operational efficiency, equipment integration and spatial optimisation, highlighting the importance of detailed technical planning when designing professional kitchens within physically constrained upper-floor locations.",
+                categoryLabel: "Kitchen Design"
+            },
+            es: {
+                title: "Texas Steakout — Diseño de Cocina",
+                shortDesc: "Diseño de una cocina comercial en una planta superior, considerando las dimensiones y el peso de los equipos, así como la optimización del espacio para mejorar la eficiencia operativa.",
+                desc: "Desarrollo del diseño de una nueva cocina comercial para el restaurante Texas Steakout, ubicado en Limerick, Irlanda. Concebido desde cero en un espacio de 31,73 m² situado en una planta superior, el proyecto presentó desafíos específicos relacionados con las limitaciones espaciales y las características físicas de los equipos profesionales de cocina. Se prestó especial atención a la selección y distribución de los equipos, considerando sus dimensiones, peso y necesidades de espacio para garantizar su compatibilidad con el entorno disponible. La distribución fue cuidadosamente organizada para maximizar el aprovechamiento de la superficie y facilitar las operaciones de preparación y cocción de alimentos. Durante el proceso de diseño se consideraron la accesibilidad a los equipos, la circulación del personal, los espacios necesarios para el trabajo y los requisitos de mantenimiento, buscando establecer un entorno funcional y eficiente. La propuesta equilibra eficiencia operativa, integración de equipos y optimización espacial, destacando la importancia de la planificación técnica en el desarrollo de cocinas profesionales ubicadas en plantas superiores con restricciones físicas y operativas.",
+                categoryLabel: "Kitchen Design"
+            }
+        }
+    },
+
 ];
 
 projectsData.sort((a, b) => b.year - a.year);

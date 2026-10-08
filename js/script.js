@@ -9,9 +9,9 @@ const translations = {
         aboutTag: "About",
         aboutTitle: "About Me",
         aboutText: `
-            I am Andreina Santos, an architect graduated from Universidade Nove de Julho (Brazil) and currently pursuing an MBA in Project Management at USP/Esalq (Brazil). I am passionate about transforming ideas into functional and inspiring spaces, combining creativity, technical precision, and sensitivity in every detail.
-            <p>During my experience at Arcos Dorados (McDonald’s), I worked on store layout development, ensuring functionality, brand identity, and compliance with design guidelines. I also collaborated in project management, schedule monitoring, and site visits to oversee renovations, gaining practical experience in coordination and execution.</p>
-            <p>My academic background provided me with a solid foundation in architectural design, urban planning, environmental comfort, and 3D modeling, with proficiency in tools such as AutoCAD, Revit, SketchUp, and Lumion.</p>
+            I’m Andreina Santos, an architect and urban planner with a degree from Universidade Nove de Julho and an MBA in Project Management from USP/Esalq, both in Brazil. Based in Ireland, I work on architectural projects, combining creativity, technical precision and careful planning to transform ideas into functional and inspiring spaces.
+            <p>My professional experience spans Brazil and Ireland. At McDonald’s Latin America, I contributed to store layout design, balancing operational efficiency, brand identity and design guidelines. I also supported project management, monitored schedules and took part in site visits for construction and refurbishment projects. In Ireland, my work at Combico involves developing projects using CAD/BIM tools, broadening my experience in an international setting.</p>
+            <p>With a strong foundation in architectural design, environmental comfort and 3D modelling, I use tools such as AutoCAD, Revit, SketchUp and Lumion to develop and communicate design solutions. In every project, I aim to balance aesthetics, functionality and attention to detail, creating spaces that respond to the needs of the people who use them.</p>
         `,
         projectsTag: "Portfolio",
         projectsTitle: "Projects",
@@ -56,9 +56,9 @@ const translations = {
         aboutTag: "Sobre",
         aboutTitle: "Sobre Mim",
         aboutText: `
-            Sou Andreina Santos, arquiteta formada pela Universidade Nove de Julho (Brasil) e atualmente cursando MBA em Gestão de Projetos na USP/Esalq (Brasil). Sou apaixonada por transformar ideias em espaços funcionais e inspiradores, combinando criatividade, precisão técnica e sensibilidade em cada detalhe.
-            <p>Durante minha experiência na Arcos Dorados (McDonald’s), atuei no desenvolvimento de layouts de lojas, garantindo funcionalidade, identidade da marca e conformidade com diretrizes de design. Também colaborei na gestão de projetos, acompanhamento de cronogramas e visitas técnicas para obras e reformas.</p>
-            <p>Minha formação acadêmica me proporcionou uma base sólida em projeto arquitetônico, urbanismo, conforto ambiental e modelagem 3D, com domínio de ferramentas como AutoCAD, Revit, SketchUp e Lumion.</p>
+            Sou Andreina Santos, arquiteta e urbanista formada pela Universidade Nove de Julho, com MBA em Gestão de Projetos pela USP/Esalq, no Brasil. Atualmente, vivo na Irlanda, onde atuo no desenvolvimento de projetos arquitetônicos, combinando criatividade, precisão técnica e planejamento para transformar ideias em espaços funcionais e inspiradores.
+            <p>Minha trajetória reúne experiências no Brasil e na Irlanda. No McDonald’s América Latina, participei do desenvolvimento de layouts de lojas, conciliando eficiência operacional, identidade da marca e diretrizes de design. Também colaborei na gestão de projetos, no acompanhamento de cronogramas e em visitas técnicas a obras e reformas. Na Irlanda, minha atuação na Combico envolve o desenvolvimento de projetos com ferramentas CAD/BIM, ampliando minha experiência em um contexto internacional.</p>
+            <p>Com uma base sólida em projeto arquitetônico, conforto ambiental e modelagem 3D, utilizo ferramentas como AutoCAD, Revit, SketchUp e Lumion para desenvolver e comunicar soluções de design. Em cada projeto, busco equilibrar estética, funcionalidade e atenção aos detalhes, criando espaços que respondam às necessidades de quem os utiliza.</p>
         `,
         projectsTag: "Portfólio",
         projectsTitle: "Projetos",
@@ -102,9 +102,9 @@ const translations = {
         aboutTag: "Sobre mí",
         aboutTitle: "Sobre Mí",
         aboutText: `
-            Soy Andreina Santos, arquitecta graduada por la Universidade Nove de Julho (Brasil) y actualmente cursando un MBA en Gestión de Proyectos en USP/Esalq (Brasil). Me apasiona transformar ideas en espacios funcionales e inspiradores, combinando creatividad, precisión técnica y sensibilidad en cada detalle.
-            <p>Durante mi experiencia en Arcos Dorados (McDonald’s), trabajé en el desarrollo de layouts de tiendas, garantizando funcionalidad, identidad de marca y cumplimiento de lineamientos de diseño. También colaboré en la gestión de proyectos, seguimiento de cronogramas y visitas técnicas de obra.</p>
-            <p>Mi formación académica me proporcionó una base sólida en diseño arquitectónico, urbanismo, confort ambiental y modelado 3D, con dominio de herramientas como AutoCAD, Revit, SketchUp y Lumion.</p>
+            Soy Andreina Santos, arquitecta y urbanista graduada por la Universidade Nove de Julho, con un MBA en Gestión de Proyectos por la USP/Esalq, ambas en Brasil. Actualmente vivo en Irlanda, donde trabajo en el desarrollo de proyectos arquitectónicos, combinando creatividad, precisión técnica y planificación para transformar ideas en espacios funcionales e inspiradores.
+            <p>Mi trayectoria profesional reúne experiencias en Brasil e Irlanda. En McDonald’s Latinoamérica, participé en el diseño de distribuciones de locales, integrando eficiencia operativa, identidad de marca y directrices de diseño. También colaboré en la gestión de proyectos, el seguimiento de cronogramas y las visitas técnicas a obras y reformas. En Irlanda, mi trabajo en Combico incluye el desarrollo de proyectos con herramientas CAD/BIM, ampliando mi experiencia en un entorno internacional.</p>
+            <p>Con una base sólida en diseño arquitectónico, confort ambiental y modelado 3D, utilizo herramientas como AutoCAD, Revit, SketchUp y Lumion para desarrollar y comunicar soluciones de diseño. En cada proyecto, busco equilibrar estética, funcionalidad y atención al detalle, creando espacios que respondan a las necesidades de quienes los utilizan.</p>
         `,
         projectsTag: "Portafolio",
         projectsTitle: "Proyectos",
