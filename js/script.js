@@ -438,9 +438,24 @@ function setupDarkMode() {
 function setupMobileMenu() {
     const menuToggle = document.getElementById("menu-toggle");
     const navbar = document.getElementById("navbar");
+
     if (!menuToggle || !navbar) return;
+
+    // Abre e fecha o menu
     menuToggle.addEventListener("click", () => {
-        navbar.classList.toggle("active");
+        const isOpen = navbar.classList.toggle("active");
+
+        menuToggle.classList.toggle("active", isOpen);
+        menuToggle.setAttribute("aria-expanded", String(isOpen));
+    });
+
+    // Fecha o menu quando clicar em uma seção
+    navbar.querySelectorAll("a").forEach(link => {
+        link.addEventListener("click", () => {
+            navbar.classList.remove("active");
+            menuToggle.classList.remove("active");
+            menuToggle.setAttribute("aria-expanded", "false");
+        });
     });
 }
 

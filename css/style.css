@@ -1696,3 +1696,68 @@ body.dark-mode .next-project-link:hover {
         margin-left: auto;
     }
 }
+
+
+/* Menu suspenso elegante — celulares e tablets */
+
+@media (max-width: 1024px) {
+    header nav {
+        position: absolute;
+        top: calc(100% + 8px);
+        left: 16px;
+        width: calc(100% - 32px);
+        background: rgba(22, 21, 20, 0.96);
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        border-radius: 16px;
+        padding: 12px 16px;
+        box-shadow: 0 16px 40px rgba(0, 0, 0, 0.25);
+        backdrop-filter: blur(16px);
+        -webkit-backdrop-filter: blur(16px);
+        display: none;
+        z-index: 1000;
+    }
+    header nav.active {
+        display: flex;
+        flex-direction: column;
+    }
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 0;
+        padding: 0;
+        margin: 0;
+    }
+    header nav ul li {
+        width: 100%;
+        text-align: left;
+    }
+    header nav ul li:not(:last-child) {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+    }
+    header nav ul li a {
+        display: block;
+        padding: 16px 8px;
+        color: #f4eee7;
+        font-size: 16px;
+        text-decoration: none;
+    }
+}
+
+
+/* Animação do ícone do menu */
+
+.menu-toggle i {
+    transition: transform 0.25s ease;
+}
+
+
+/* Troca o ícone ☰ por X */
+
+.menu-toggle.active i::before {
+    content: "\f00d";
+}
+
+.menu-toggle.active i {
+    transform: rotate(90deg);
+}
