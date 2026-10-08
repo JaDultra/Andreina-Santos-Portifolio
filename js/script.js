@@ -33,12 +33,17 @@ const translations = {
         detailsTitle: "Project details",
         searchPlaceholder: "Search project...",
         emptyState: "No projects found.",
+        viewProject: "View project",
+        projectNotFoundTitle: "Project not found",
+        projectNotFoundDesc: "The project you tried to open does not exist.",
+        projectNotFoundBack: "Go back",
         filters: {
             all: "All",
             academic: "Academic",
             residential: "Residential",
             commercial: "Commercial",
             kitchenDesign: "Kitchen Design"
+
         }
     },
     pt: {
@@ -75,13 +80,16 @@ const translations = {
         detailsTitle: "Detalhes do projeto",
         searchPlaceholder: "Buscar projeto...",
         emptyState: "Nenhum projeto encontrado.",
+        viewProject: "Ver projeto",
+        projectNotFoundTitle: "Projeto não encontrado",
+        projectNotFoundDesc: "O projeto que você tentou abrir não existe.",
+        projectNotFoundBack: "Voltar",
         filters: {
             all: "Todos",
             academic: "Acadêmico",
             residential: "Residencial",
             commercial: "Comercial",
             kitchenDesign: "Design de Cozinhas"
-
         }
     },
     es: {
@@ -118,17 +126,19 @@ const translations = {
         detailsTitle: "Detalles del proyecto",
         searchPlaceholder: "Buscar proyecto...",
         emptyState: "No se encontraron proyectos.",
+        viewProject: "Ver proyecto",
+        projectNotFoundTitle: "Proyecto no encontrado",
+        projectNotFoundDesc: "El proyecto que intentaste abrir no existe.",
+        projectNotFoundBack: "Volver",
         filters: {
             all: "Todos",
             academic: "Académico",
             residential: "Residencial",
             commercial: "Comercial",
             kitchenDesign: "Diseño de Cocinas"
-
         }
     }
 };
-
 let currentFilter = "all";
 let currentSearch = "";
 const initialProjects = 8;
@@ -170,7 +180,6 @@ function getFilteredProjects(lang) {
         const matchesSearch =
             text.title.toLowerCase().includes(currentSearch.toLowerCase()) ||
             text.shortDesc.toLowerCase().includes(currentSearch.toLowerCase());
-
         return matchesFilter && matchesSearch;
     });
 }
@@ -179,43 +188,34 @@ function renderProjects(lang) {
     const grid = document.getElementById("project-grid");
     const emptyState = document.getElementById("empty-state");
     const loadMoreBtn = document.getElementById("load-more-projects");
-
     if (!grid) return;
-
     const filteredProjects = getFilteredProjects(lang);
     const visibleItems = filteredProjects.slice(0, visibleProjects);
-
     if (!filteredProjects.length) {
         grid.innerHTML = "";
         if (emptyState) emptyState.style.display = "block";
         if (loadMoreBtn) loadMoreBtn.style.display = "none";
         return;
     }
-
     if (emptyState) emptyState.style.display = "none";
-
     grid.innerHTML = visibleItems.map((project, index) => {
         const text = getTextByLang(project, lang);
-
         return `
             <article class="card reveal-card" style="animation-delay: ${index * 0.08}s;">
                 <a href="project.html?id=${project.id}">
                     <div class="card-image-wrap">
                         <img src="${project.thumb}" alt="${text.title}">
-                        <div class="card-overlay">
-                            <span class="card-view">View project</span>
+                        <div class="card-overlay">      
+                            <span class="card-view">${(translations[lang] || translations.en).viewProject}</span>
                         </div>
                     </div>
-
                     <div class="card-info">
                         <div class="card-top-meta">
                             <span class="badge">${text.categoryLabel}</span>
                             <span class="badge">${project.year}</span>
                         </div>
-
                         <h3>${text.title}</h3>
                         <p>${text.shortDesc}</p>
-
                         <div class="card-bottom-meta">
                             <span>${project.software}</span>
                         </div>
@@ -224,7 +224,6 @@ function renderProjects(lang) {
             </article>
         `;
     }).join("");
-
     if (loadMoreBtn) {
         if (visibleProjects >= filteredProjects.length) {
             loadMoreBtn.style.display = "none";
@@ -239,49 +238,84 @@ function getProjectIdFromUrl() {
     return params.get("id");
 }
 
+function translateLocation(location, lang) {
+    if (!location) return "";
+    const countries = {
+        "Brazil": {
+            en: "Brazil",
+            pt: "Brasil",
+            es: "Brasil"
+        },
+        "Brasil": {
+            en: "Brazil",
+            pt: "Brasil",
+            es: "Brasil"
+        },
+        "Ireland": {
+            en: "Ireland",
+            pt: "Irlanda",
+            es: "Irlanda"
+        },
+        "Irlanda": {
+            en: "Ireland",
+            pt: "Irlanda",
+            es: "Irlanda"
+        }
+    };
+    const parts = location.split(",").map(part => part.trim());
+    // Remove país duplicado no final, caso exista.
+    if (parts.length >= 2) {
+        const last = parts[parts.length - 1];
+        const previous = parts[parts.length - 2];
+        if (
+            countries[last] &&
+            countries[previous] &&
+            countries[last].en === countries[previous].en
+        ) {
+            parts.splice(parts.length - 2, 1);
+        }
+    }
+    return parts.map(part => {
+        return countries[part] ? (countries[part][lang] || part) : part;
+    }).join(", ");
+}
+
 function renderProjectPage(lang) {
     const projectId = getProjectIdFromUrl();
     if (!projectId) return;
-
     const project = projectsData.find(item => item.id === projectId);
     const pageHero = document.querySelector(".project-hero");
-
     if (!project) {
         const layout = document.querySelector(".project-layout");
+        const t = translations[lang] || translations.en;
         if (layout) {
             layout.innerHTML = `
                 <div class="project-not-found">
-                    <h1>Projeto não encontrado</h1>
-                    <p>O projeto que você tentou abrir não existe.</p>
-                    <a href="index.html#projects" class="btn-hero">Voltar</a>
+                    <h1>${t.projectNotFoundTitle}</h1>
+                    <p>${t.projectNotFoundDesc}</p>
+                    <a href="index.html#projects" class="btn-hero">${t.projectNotFoundBack}</a>
                 </div>
             `;
         }
         return;
     }
-
     const text = getTextByLang(project, lang);
-
     document.title = `${text.title} | Andreina Santos | Architecture Portfolio`;
-
     if (pageHero && project.cover) {
         pageHero.style.backgroundImage = `
             linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
             url("${project.cover}")
         `;
     }
-
     safeSet("project-title", text.title);
     safeSet("project-desc", text.desc);
     safeSet("project-category", text.categoryLabel);
-
     safeSet("year-value", project.year);
-    safeSet("location-value", project.location);
+    safeSet("location-value", translateLocation(project.location, lang));
     safeSet("year-value-side", project.year);
-    safeSet("location-value-side", project.location);
+    safeSet("location-value-side", translateLocation(project.location, lang));
     safeSet("area-value", project.area);
     safeSet("software-value", project.software);
-
     const gallery = document.getElementById("gallery");
     if (gallery) {
         gallery.innerHTML = project.images.map((img, index) => `
@@ -293,53 +327,42 @@ function renderProjectPage(lang) {
     }
     const currentProjectIndex = projectsData.findIndex(item => item.id === projectId);
     const nextProject = projectsData[(currentProjectIndex + 1) % projectsData.length];
-
     if (nextProject) {
         const nextText = getTextByLang(nextProject, lang);
         const nextProjectLink = document.getElementById("next-project-link");
         const nextProjectName = document.getElementById("next-project-name");
-
         if (nextProjectLink) {
             nextProjectLink.href = `project.html?id=${nextProject.id}`;
         }
-
         if (nextProjectName) {
             nextProjectName.textContent = nextText.title;
         }
     }
-
     setupLightbox();
 }
 
 function applyGlobalTexts(lang) {
     const t = translations[lang] || translations.pt;
-
     safeSet("hero-kicker", t.heroKicker);
     safeSet("hero-title", t.heroTitle);
     safeSet("hero-sub", t.heroSub);
     safeSet("btn-see-projects", t.btnSeeProjects);
     safeSet("btn-contact", t.btnContact);
     safeSet("load-more-projects", t.loadMoreProjects);
-
     safeSet("next-project-label", t.nextProject);
-
     safeSet("about-tag", t.aboutTag);
     safeSet("about-title", t.aboutTitle);
     safeSetHTML("about-text", t.aboutText);
-
     safeSet("projects-tag", t.projectsTag);
     safeSet("projects-title", t.projectsTitle);
     safeSet("projects-subtitle", t.projectsSubtitle);
-
     safeSet("contact-tag", t.contactTag);
     safeSet("contact-title", t.contactTitle);
     safeSet("contact-text", t.contactText);
-
     safeSet("nav-about", t.navAbout);
     safeSet("nav-projects", t.navProjects);
     safeSet("nav-contact", t.navContact);
     safeSet("back-to-projects", t.backToProjects);
-
     safeSet("year-label", t.year);
     safeSet("location-label", t.location);
     safeSet("area-label", t.area);
@@ -348,16 +371,13 @@ function applyGlobalTexts(lang) {
     safeSet("gallery-subtitle", t.gallerySubtitle);
     safeSet("details-title", t.detailsTitle);
     safeSet("empty-state", t.emptyState);
-
     const searchInput = document.getElementById("project-search");
     if (searchInput) searchInput.placeholder = t.searchPlaceholder;
-
     safeSet("filter-all", t.filters.all);
     safeSet("filter-academic", t.filters.academic);
     safeSet("filter-residential", t.filters.residential);
     safeSet("filter-commercial", t.filters.commercial);
     safeSet("filter-kitchenDesign", t.filters.kitchenDesign);
-
     document.documentElement.lang = lang;
 }
 
@@ -383,10 +403,8 @@ function setupDarkMode() {
     const darkModeToggle = document.getElementById("dark-mode-toggle");
     const body = document.body;
     const icon = darkModeToggle ? darkModeToggle.querySelector("i") : null;
-
     try {
         const savedMode = localStorage.getItem("darkMode");
-
         if (savedMode === "disabled") {
             body.classList.remove("dark-mode");
             if (icon) {
@@ -403,18 +421,14 @@ function setupDarkMode() {
     } catch {
         body.classList.add("dark-mode");
     }
-
     if (!darkModeToggle) return;
-
     darkModeToggle.addEventListener("click", () => {
         body.classList.toggle("dark-mode");
         const isDark = body.classList.contains("dark-mode");
-
         if (icon) {
             icon.classList.toggle("fa-moon", !isDark);
             icon.classList.toggle("fa-sun", isDark);
         }
-
         try {
             localStorage.setItem("darkMode", isDark ? "enabled" : "disabled");
         } catch {}
@@ -424,9 +438,7 @@ function setupDarkMode() {
 function setupMobileMenu() {
     const menuToggle = document.getElementById("menu-toggle");
     const navbar = document.getElementById("navbar");
-
     if (!menuToggle || !navbar) return;
-
     menuToggle.addEventListener("click", () => {
         navbar.classList.toggle("active");
     });
@@ -435,14 +447,12 @@ function setupMobileMenu() {
 function setupFilters() {
     const filterButtons = document.querySelectorAll(".filter-btn");
     if (!filterButtons.length) return;
-
     filterButtons.forEach(button => {
         button.addEventListener("click", () => {
             filterButtons.forEach(btn => btn.classList.remove("active"));
             button.classList.add("active");
             currentFilter = button.dataset.filter;
             visibleProjects = initialProjects;
-
             const lang = getSavedLanguage();
             renderProjects(lang);
         });
@@ -452,11 +462,9 @@ function setupFilters() {
 function setupSearch() {
     const searchInput = document.getElementById("project-search");
     if (!searchInput) return;
-
     searchInput.addEventListener("input", (event) => {
         currentSearch = event.target.value.trim();
         visibleProjects = initialProjects;
-
         const lang = getSavedLanguage();
         renderProjects(lang);
     });
@@ -465,7 +473,6 @@ function setupSearch() {
 function setupLoadMore() {
     const loadMoreBtn = document.getElementById("load-more-projects");
     if (!loadMoreBtn) return;
-
     loadMoreBtn.addEventListener("click", () => {
         visibleProjects += projectsPerClick;
         const lang = getSavedLanguage();
@@ -478,7 +485,6 @@ function setupSceneJourney() {
     const projects = document.getElementById('projects');
     const projectsBody = document.querySelector('.projects-body');
     if (!about || !projects || !projectsBody) return;
-
     let scheduled = false;
     const clamp = value => Math.max(0, Math.min(1, value));
     const ease = value => {
@@ -510,9 +516,7 @@ function setupSceneJourney() {
 
 function setupRevealSections() {
     const elements = document.querySelectorAll(".section-reveal");
-
     if (!elements.length) return;
-
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
@@ -520,10 +524,8 @@ function setupRevealSections() {
             }
         });
     }, { threshold: 0.15 });
-
     elements.forEach(el => observer.observe(el));
 }
-
 
 function setupLightbox() {
     const wrappers = document.querySelectorAll(".img-wrapper");
@@ -533,9 +535,7 @@ function setupLightbox() {
     const closeBtn = document.querySelector(".lightbox .close");
     const prevBtn = document.querySelector(".lightbox .prev");
     const nextBtn = document.querySelector(".lightbox .next");
-
     if (!wrappers.length || !lightbox || !lightboxImg || !closeBtn || !prevBtn || !nextBtn || !counter) return;
-
     const images = Array.from(wrappers).map(wrapper => wrapper.querySelector("img").src);
     let currentIndex = 0;
 
@@ -555,15 +555,12 @@ function setupLightbox() {
         updateNavigation();
         lightbox.style.display = "block";
     }
-
     wrappers.forEach((wrapper, index) => {
         wrapper.addEventListener("click", () => showImage(index));
     });
-
     closeBtn.addEventListener("click", () => {
         lightbox.style.display = "none";
     });
-
     prevBtn.addEventListener("click", () => {
         if (currentIndex > 0) {
             currentIndex--;
@@ -572,7 +569,6 @@ function setupLightbox() {
             updateNavigation();
         }
     });
-
     nextBtn.addEventListener("click", () => {
         if (currentIndex < images.length - 1) {
             currentIndex++;
@@ -581,7 +577,6 @@ function setupLightbox() {
             updateNavigation();
         }
     });
-
     lightbox.addEventListener("click", (event) => {
         if (event.target === lightbox) {
             lightbox.style.display = "none";
@@ -598,7 +593,6 @@ document.addEventListener("DOMContentLoaded", () => {
     setupLoadMore();
     setupRevealSections();
     setupSceneJourney();
-
     const savedLang = getSavedLanguage();
     setLanguage(savedLang);
 });
