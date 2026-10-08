@@ -1647,3 +1647,52 @@ body.dark-mode .next-project-link:hover {
         height: 28px;
     }
 }
+
+
+/* Cabeçalho responsivo — celulares e tablets */
+
+@media (max-width: 1024px) {
+    header {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        gap: 12px;
+    }
+    header .logo {
+        order: 1;
+        margin-right: auto;
+        flex-shrink: 0;
+    }
+    header .lang-switch {
+        order: 2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        width: auto;
+        margin: 0;
+        flex-shrink: 0;
+    }
+    header .menu-toggle {
+        order: 3;
+        margin-left: 8px;
+        flex-shrink: 0;
+    }
+}
+
+
+/* Bandeiras centralizadas — celulares */
+
+@media (max-width: 768px) {
+    header {
+        position: relative;
+    }
+    header .lang-switch {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    header .menu-toggle {
+        margin-left: auto;
+    }
+}
