@@ -1527,6 +1527,18 @@ body.dark-mode .projects-intro .section-subtitle {
 }
 
 
+/* Celulares e tablets */
+
+@media (max-width: 1024px) {
+    .logo-img {
+        height: 28px;
+        width: auto;
+        max-width: 100%;
+        object-fit: contain;
+    }
+}
+
+
 /* The footer joins the contact section without an empty strip. */
 
 .home-page footer {
