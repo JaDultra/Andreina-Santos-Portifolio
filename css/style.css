@@ -1587,3 +1587,63 @@ body.dark-mode .next-project-link:hover {
 .home-page:not(.dark-mode).header-over-content header nav a:hover {
     color: #795238;
 }
+
+
+/* Logo com troca automática de cor */
+
+.logo {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+}
+
+.logo-img {
+    display: block;
+    height: 42px;
+    width: auto;
+    object-fit: contain;
+}
+
+
+/* Inicialmente, mostra o logo branco */
+
+.logo-white {
+    display: block;
+}
+
+.logo-black {
+    display: none;
+}
+
+
+/* Quando a barra recebe fundo branco */
+
+
+/* Logo branco por padrão */
+
+
+/* Logo branco por padrão */
+
+.logo-img {
+    display: block;
+    height: 42px;
+    width: auto;
+    object-fit: contain;
+    filter: none;
+}
+
+
+/* Logo preto somente quando a barra ficar clara */
+
+.home-page.header-on-plan header .logo-img {
+    filter: brightness(0);
+}
+
+
+/* Celulares e tablets */
+
+@media (max-width: 1024px) {
+    .logo-img {
+        height: 28px;
+    }
+}
